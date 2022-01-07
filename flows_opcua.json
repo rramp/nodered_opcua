@@ -1,0 +1,47 @@
+[
+    {
+        "id": "96adb3947e7fec0e",
+        "type": "ui_text_input",
+        "z": "2653fcc66d5507cc",
+        "name": "",
+        "label": "Valor de referencia:",
+        "tooltip": "",
+        "group": "da841a19ba2308df",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 110,
+        "y": 420,
+        "wires": [
+            [
+                "448cf0f10ea444b2"
+            ]
+        ]
+    },
+    {
+        "id": "da841a19ba2308df",
+        "type": "ui_group",
+        "name": "proceso",
+        "tab": "fedc2a1f8b590a0a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fedc2a1f8b590a0a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
